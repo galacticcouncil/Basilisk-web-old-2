@@ -5,7 +5,7 @@
       "text": "INFO",
       "url": "/",
       "dropdown": true,
-      "subText": "HOME PAGE",
+      "subText": "Home page",
       "dropdownItem": [
         {
           "url": "https://docs.bsx.fi",
@@ -37,6 +37,7 @@
       "id": 2,
       "text": "GITHUB",
       "url": "https://github.com/galacticcouncil",
+      "target": "_blank",
       "dropdown": false
     },
     {
@@ -64,6 +65,7 @@
       "id": 4,
       "text": "NEWSLETTER",
       "url": "https://basiliskfi.substack.com/",
+      "target": "_blank",
       "dropdown": false
     }
   ],

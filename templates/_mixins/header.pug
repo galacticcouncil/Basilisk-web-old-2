@@ -13,7 +13,7 @@ mixin header
                     if item.dropdown
                         ul.dropout-menu
                             each childItem in item.dropdownItem
-                                a.dropout-menu-link(href=url(childItem.url))
+                                a.dropout-menu-link(href=url(childItem.url) target='_blank')
                                     li.dropout-menu-item=childItem.text
 
         ul.header__menu-mobile
@@ -28,7 +28,7 @@ mixin header
                               document.getElementById(s).style.display = 'block';
                             }
                           }
-                        div(onclick='showHide('+mobileItem.id+')')=__(mobileItem.text)
+                        div.menu-mobile-item(onclick='showHide('+mobileItem.id+')')=__(mobileItem.text)
                         ul.child-list(id=(mobileItem.id))
                             a.dropout-menu-link(href=url(mobileItem.url))
                                 if mobileItem.subText

@@ -1,22 +1,5 @@
-$color-azure: #2bc6dc;
-$color-light-orange: rgba(236, 252, 133, 0.2);
-$color-orange: orange;
-$color-azure-light: #78ffff;
-$color-black: #262626;
-$color-grey: lightgrey;
-$color-dark-grey: grey;
-$color-halfdark-grey: #eeeeee;
-$color-white: #fff;
-$color-green: #0aff07;
-$color-red: #ff260b;
-$font-calibri: "Calibri", sans-serif;
-
 .menu-item:hover .dropout-menu {
   display: block;
-}
-
-.menu-item.chosen.triangle::after {
-  border-color: #000000 transparent;
 }
 
 .dropout-menu {
@@ -32,7 +15,7 @@ $font-calibri: "Calibri", sans-serif;
   list-style-type: none;
   max-width: 396px;
   z-index: 10;
-  text-transform: capitalize;
+  //text-transform: capitalize;
 
   &-item {
     padding: 5px 2px 5px 30px;
@@ -44,6 +27,7 @@ $font-calibri: "Calibri", sans-serif;
     font-size: 16px !important;
     line-height: 38px;
     white-space: nowrap;
+    text-transform: initial;
 
     @media (max-width: breakpoint-min('sm')) {
       white-space: normal;

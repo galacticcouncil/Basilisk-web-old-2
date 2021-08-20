@@ -216,6 +216,14 @@
   padding-left: 0;
 }
 
+.menu-mobile-item {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .header-mobile {
   padding: 1em;
   display: flex;
