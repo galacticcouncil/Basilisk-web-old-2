@@ -8,7 +8,7 @@ module.exports = {
   baseUrl: 'https://web3vietnam.github.io/',
   baseContext: 'basilisk-website',
   siteName: 'Basilisk',
-  siteDescription: 'Liquidity protocol build on Kusama',
+  siteDescription: 'Liquidity Protocol Built for Kusama',
   dateTimeFormat: 'ddd, MM/DD/YYYY - HH:mm',
   dateFormat: 'MM/DD/YYYY',
   postUrlStyle: 'POSTS_SLUG',

@@ -251,7 +251,7 @@
   z-index: 1000;
   width: 100%;
   top: 0;
-  transition: transform 0.4s;
+  transition: transform 0.4s, background-color 0.4s;
 
   $self: &;
 
