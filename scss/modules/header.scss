@@ -7,7 +7,7 @@
   width: 100%;
   top: 0;
   z-index: 100;
-  background-color: $bgc;
+  transition: transform 0.4s, background-color 0.4s;
 
   &__placeholder {
     height: 145px;
@@ -251,7 +251,7 @@
   z-index: 1000;
   width: 100%;
   top: 0;
-  background-color: $bgc;
+  transition: transform 0.4s;
 
   $self: &;
 

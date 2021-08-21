@@ -11,7 +11,6 @@
     top: -26px;
     left: 0;
     min-width: $min-width;
-    margin-top: 145px;
 
     @media (max-width: breakpoint-min('xl')) {
       background-size: cover;
@@ -34,7 +33,7 @@
   }
 
   .section-1 {
-    margin: 231px auto 8px auto;
+    margin: 86px auto 8px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,12 +276,8 @@
   }
 
   @media (max-width: 1490px) {
-    .header-background {
-      margin-top: 133px;
-    }
-
     .section-1 {
-      margin: 140px auto 30px auto;
+      margin: 95px auto 30px auto;
     }
 
     .headline-2 {
@@ -371,7 +366,7 @@
 
   @media (max-width: breakpoint-min(md)) {
     .section-1 {
-      margin-top: 80px;
+      margin-top: 35px;
     }
 
     img.basilisk {
@@ -486,4 +481,25 @@
       line-height: 22px;
     }
   }
+}
+
+.scroll-down .header-desktop,
+.scroll-down .header-mobile {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .header-desktop,
+.scroll-up .header-mobile {
+  background-color: var(--bgc);
+  transform: none;
+}
+
+.scroll-up .header,
+.scroll .header
+{
+  padding: 0 58px;
+}
+.scroll-up .header__logo img,
+.scroll .header__logo img{
+  width: 56px;
 }
