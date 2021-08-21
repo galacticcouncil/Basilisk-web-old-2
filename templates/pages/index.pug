@@ -85,6 +85,7 @@ block content
         const currentScroll = window.pageYOffset;
         if (currentScroll <= 0) {
           body.classList.remove(scrollUp);
+          body.classList.remove('scroll');
           return;
         }
 
