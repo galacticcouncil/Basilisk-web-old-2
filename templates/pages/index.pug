@@ -1,7 +1,7 @@
 extends ../_layouts/main
 
 block prepend head
-    - var title = siteDescription
+  - var title = siteDescription
 
 block append head
     meta(property='og:description' content=siteDescription)
@@ -32,6 +32,7 @@ block content
                         span.info-box-content=__('infobox-content-3')
     h6.headline-2.hydradx-and-basilisk-title=__('hydradxAndBasilisk')
     .container-wrapper.pos-relative
+        img(src=url('./images/hydradx-and-basilisk-banner.png'))
         .row.hydradx-and-basilisk-wrapper
             .col-lg-6.hydradx-and-basilisk-content-wrapper
                 div.hydradx-and-basilisk-text
@@ -64,16 +65,13 @@ block content
         .container.px-3
             .table-road-map-wrapper
                 table.table.roadmap
-                    each one, index in roadmap
-                        - var lastTaskClass = ((index === (roadmap.length - 1)) ? 'task-last' : '');
-                        - var firstTaskClass = ((index === 0) ? 'task-first' : '');
-                        tr(class=one ? '' : 'p-color')
-                            td(class=`${firstTaskClass} ${lastTaskClass}`)
-                                ul.listing
-                                    li.listing__item(class=one.what === "WHAT"? 'listing__item--arrow-none':'')=one.what
-                            td(class=`${firstTaskClass} ${lastTaskClass}`)
-                                ul.listing.listing__no-style
-                                    li.listing__item(class=one.when === "WHEN"? 'listing__item--arrow-none':'')=one.when
+                  each one, index in roadmap
+                    - var lastTaskClass = ((index === (roadmap.length - 1)) ? 'task-last' : '');
+                    - var firstTaskClass = ((index === 0) ? 'task-first' : '');
+                    tr(class=one ? '' : 'p-color')
+                        td(class=`${firstTaskClass} ${lastTaskClass}`)
+                            ul.listing
+                                li.listing__item(class=one.what === "WHAT"? 'listing__item--arrow-none':'')=one.what
     script.
       const body = document.body;
       const scrollUp = "scroll-up";
@@ -94,7 +92,7 @@ block content
           body.classList.remove(scrollUp);
           body.classList.add(scrollDown);
           if (currentScroll > headerHeight) {
-            body.classList.add('scroll')
+            body.classList.add('scroll');
           }
         } else if (
           currentScroll < lastScroll &&
@@ -103,6 +101,7 @@ block content
           // up
           body.classList.remove(scrollDown);
           body.classList.add(scrollUp);
+
         }
         lastScroll = currentScroll;
       });
