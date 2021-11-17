@@ -6,21 +6,27 @@
     "what": "Basilisk becomes a Kusama Parachain"
   },
   {
-    "what": "Basilisk LBP"
+    "what": "Basilisk LBP",
+    "when": "T+ weeks"
   },
   {
-    "what": "Enabling Trading in AMM"
+    "what": "Enabling Trading in AMM",
+    "when": "T+ weeks"
   },
   {
-    "what": "Liquidity Mining"
+    "what": "Liquidity Mining",
+    "when": "T+ weeks"
   },
   {
-    "what": "Stablecoin AMM pallet (Curve-like)"
+    "what": "Stablecoin AMM pallet (Curve-like)",
+    "when": "T+ months"
   },
   {
-    "what": "Enabling LBP functionality for other assets"
+    "what": "Enabling LBP functionality for other assets",
+    "when": "T+ months"
   },
   {
-    "what": "NFT marketplace"
+    "what": "NFT marketplace",
+    "when": "T+ months"
   }
 ]
