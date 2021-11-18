@@ -225,6 +225,11 @@
     width: 100%;
     border-spacing: 0;
 
+    .completed {
+      text-decoration: line-through;
+      text-decoration-color: var(--primray-color);
+    }
+
     tr:last-child {
       td {
         border-bottom: none;
