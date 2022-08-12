@@ -12,20 +12,8 @@
           "text": "Docs"
         },
         {
-          "url": "https://docs.bsx.fi/basilisk_crowdloan",
-          "text": "Crowdloan Details"
-        },
-        {
-          "url": "https://docs.bsx.fi/crowdloan_guide",
-          "text": "Crowdloan Guide"
-        },
-        {
           "url": "https://docs.bsx.fi/parachains",
           "text": "Parachains, Auctions and Crowdloans"
-        },
-        {
-          "url": "https://docs.bsx.fi/tokenomics/",
-          "text": "Tokenomics"
         },
         {
           "url": "https://docs.bsx.fi/infra_testnet",
@@ -73,5 +61,5 @@
     "en": "Eng",
     "vi": "Vie"
   },
-  "launchAppUrl": "https://loan.bsx.fi"
+  "launchAppUrl": "https://app.basilisk.cloud"
 }

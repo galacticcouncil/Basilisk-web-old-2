@@ -9,7 +9,7 @@ mixin header
         ul.header__menu
             each item in header.menu
                 li.menu-item
-                    a(href=url(item.url, locale) class=active(extractTemplateName(item.url)) target=item.target)=__(item.text)
+                    a(href=url(item.url, locale) target=item.target)=__(item.text)
                     if item.dropdown
                         ul.dropout-menu
                             each childItem in item.dropdownItem
@@ -56,10 +56,13 @@ mixin header
             //    span.language-selector__current=currentLanguage
             //    img.language-selector__arrow-down(src=url('/images/arrow-down.svg'))
 
+            a.btn.btn-launch-app(href=header.launchAppUrl)=__('SNEK APP')
+
     header.header-mobile.d-xl-none
         div.header-mobile__hamberger(role='button')
             div.header-mobile__hamberger-meat
         div.header-mobile__main
             a.header-mobile__logo(href=url('/', locale))
                 img(src=url('/images/logo-mobile.svg'))
+        a.btn.btn-launch-app(href=header.launchAppUrl)=__('SNEK APP')
 
