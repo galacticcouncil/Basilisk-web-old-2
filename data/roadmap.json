@@ -4,11 +4,15 @@
     "completed": true
   },
   {
-    "what": "Basilisk LBP",
-    "completed": false
+    "what": "Governance launched",
+    "completed": true
   },
   {
-    "what": "Enabling Trading in AMM",
+    "what": "Snek Swap",
+    "completed": true
+  },
+  {
+    "what": "NFT marketplace",
     "completed": false
   },
   {
@@ -20,11 +24,7 @@
     "completed": false
   },
   {
-    "what": "Enabling LBP functionality for other assets",
-    "completed": false
-  },
-  {
-    "what": "NFT marketplace",
+    "what": "Liquidity Bootstraping Pools enabled",
     "completed": false
   }
 ]
